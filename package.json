@@ -1,0 +1,25 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "curso de ecmascript con oscar barajas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miltondw/ecmascript.git"
+  },
+  "keywords": [
+    "ecmascript",
+    "node",
+    "js"
+  ],
+  "author": "milton estrada <estradamilton2001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miltondw/ecmascript/issues"
+  },
+  "homepage": "https://github.com/miltondw/ecmascript#readme"
+}
