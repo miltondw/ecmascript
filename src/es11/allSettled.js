@@ -4,4 +4,4 @@ const promise3 = new Promise((resolve, reject) => resolve("resolve two"));
 
 Promise.allSettled([promise1, promise2, promise3]).then((res) =>
   console.log(res)
-);
+); //va a capturar todas las respuestas de las promesas
