@@ -1,5 +1,6 @@
 //Este código realiza una serie de peticiones HTTP a una API usando el objeto XMLHttpRequest, que permite hacer solicitudes a servidores desde una aplicación web.
-const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+// const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+import { XMLHttpRequest } from "xmlhttprequest";
 const API = "https://api.escuelajs.co/api/v1/";
 
 function fetchData(urlAPI, callback) {
